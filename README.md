@@ -18,7 +18,7 @@ Lomba Perioda 2023
    python -m virtualenv env
    ```
 
-3. Activate the Virtual Environment: Activate the virtual environment based on your 
+3. Activate the Virtual Environment: Activate the virtual environment based on your OS 
 
    - On Windows:
    ```bash

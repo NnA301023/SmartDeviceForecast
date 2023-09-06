@@ -36,7 +36,7 @@ Lomba Perioda 2023
 
 # Usage
 
-Run the FastAPI Application: Start the FastAPI application using the following command:
+1. Run the FastAPI Application: Start the FastAPI application using the following command:
 
     ```bash
     Copy code
@@ -44,4 +44,4 @@ Run the FastAPI Application: Start the FastAPI application using the following c
     # The application will be available at http://localhost:8000.
     ```
 
-Access Documentation: Open the API documentation in your web browser by navigating to http://localhost:8000/docs. You can interact with the API and test the forecasting functionality.
+2. Access Documentation: Open the API documentation in your web browser by navigating to http://localhost:8000/docs. You can interact with the API and test the forecasting functionality.

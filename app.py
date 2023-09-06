@@ -17,7 +17,7 @@ async def forecast_iot_data():
         # Replace this with your actual forecasting code
         t_plus_1 = randint(1, 100)
         
-        return {"status_code" : 200, "message" : "success", "body" : {"t_plus_1_forecast": t_plus_1}}
+        return {"status_code" : 200, "message" : "success", "body" : {"forecast": t_plus_1}}
     except Exception as e:
         raise HTTPException(status_code = 500, detail = "Error in forecasting")
 

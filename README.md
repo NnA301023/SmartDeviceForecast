@@ -22,15 +22,12 @@ Lomba Perioda 2023
 
    - On Windows:
    ```bash
-    Copy code
     env\Scripts\activate
-    On macOS and Linux:
     ```
 
 3. Install Dependencies: Install the required libraries listed in requirements.txt using pip:
 
     ```bash
-    Copy code
     pip install -r requirements.txt
     ```
 

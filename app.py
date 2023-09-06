@@ -1,9 +1,22 @@
 import uvicorn
 from random import randint
-from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
+
+# Define CORS settings
+origins = ["*"]  # Change this to a list of allowed origins if needed.
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins = origins,
+    allow_methods = origins,
+    allow_headers = origins,
+)
 
 # Define a Pydantic model for input data (modify as per your data structure)
 class IoTDataInput(BaseModel):
